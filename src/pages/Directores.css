@@ -1,0 +1,15 @@
+#directores table i{
+    display: none;
+    cursor: pointer;
+}
+#directores table i:hover{
+    color: var(---color-blanco)
+}
+/*
+.mostrarIconos i{
+    display: inline;
+}
+*/
+#directores table tr:hover i {
+    display: inline;
+}

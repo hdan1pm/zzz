@@ -1,0 +1,37 @@
+.precio-anterior{
+    font-size: 0.8em;
+    text-decoration: line-through;
+    color: var(--color-gris-claro)!important;
+    margin-left: 10px;
+}
+.porcentaje-descuento{
+    background-color: var(--color5);
+    color: var(--color-blanco);
+    position: absolute;
+    top:0;
+    right: 0;
+    padding: 5px 10px;
+}
+.icono-vista-rapida{
+    position: absolute;
+    right: -50px;
+    top: 40px;
+    background-color: rgba(0,0,0,0.4);
+    color: var(--color-blanco);
+    padding: 11px 15px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all ease-in-out .5s;
+    cursor: pointer;
+}
+.icono-vista-rapida-mostrar{
+    opacity: 1;
+    right: 10px;
+}
+.iconocarrito, .icono-eliminar{
+    cursor: pointer;
+    margin-left: 5px;
+}
+.iconocarrito:hover, .icono-eliminar:hover{
+    color: var(--color5);
+}
